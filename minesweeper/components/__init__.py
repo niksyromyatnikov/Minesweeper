@@ -6,3 +6,7 @@ from .cell import (
     Cell,
     unraveled_print
 )
+
+from .board import (
+    Board,
+)
