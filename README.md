@@ -3,6 +3,18 @@
 </h1>
 
 <h2>Quick tour</h2>
+<h3>Getting started</h3>
+<hr>
+<ul>
+<p>1. We support Python 3.7 and higher.</p>
+<p>2. Download sources:</p>
+<pre>git clone https://github.com/niksyromyatnikov/Minesweeper.git</pre>
+<p>3. Run the program:</p>
+<pre>
+cd Minesweeper
+python -m minesweeper
+</pre>
+</ul>
 <hr>
 <h3>Normal mode</h3>
 <p>This is the standard game mode, in which each unrevealed cell will be displayed as a "*" symbol. When you click on a cell, it will expand. If it is a black hole, you will lose the game, otherwise, the revealed cell will show you how many mines are around it. Also, if a cell has zero neighboring black holes, it unblocks all neighbors until it reaches those with non-zero neighboring black holes.</p>
