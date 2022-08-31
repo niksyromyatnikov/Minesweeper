@@ -1,4 +1,4 @@
-from components import Board
+from minesweeper.components import Board
 
 
 def main():
